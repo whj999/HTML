@@ -1,0 +1,202 @@
+
+div{
+    box-sizing: border-box;
+}
+.icon {
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 50px;
+    animation: downs 2s linear infinite;
+}
+
+.ribbon {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    margin: auto;
+}
+
+.ribbon:after,
+.ribbon:before {
+    margin-top: 0.5em;
+    content: "";
+    display: flex;
+    ;
+    border: 1.5em solid brown;
+}
+
+.ribbon:after {
+    border-right-color: transparent;
+}
+
+.ribbon:before {
+    border-left-color: transparent;
+}
+
+.ribbon a:link,
+.ribbon a:visited {
+    color: #000;
+    text-decoration: none;
+    height: 3.5em;
+    overflow: hidden;
+}
+
+.ribbon span {
+    background: white;
+    display: inline-block;
+    line-height: 3em;
+    padding: 0 1.5em;
+    margin-top: 0.5em;
+    position: relative;
+    -webkit-transition: background-color 0.2s, margin-top 0.2s;
+    -moz-transition: background-color 0.2s, margin-top 0.2s;
+    -ms-transition: background-color 0.2s, margin-top 0.2s;
+    -o-transition: background-color 0.2s, margin-top 0.2s;
+    transition: background-color 0.2s, margin-top 0.2s;
+}
+
+.ribbon a:hover span {
+    background: blue;
+    margin-top: 0;
+}
+
+.ribbon span:before {
+    content: "";
+    position: absolute;
+    top: 3em;
+    left: 0;
+    border-right: 0.5em solid red;
+    border-bottom: 0.5em solid red;
+}
+
+.ribbon span:after {
+    content: "";
+    position: absolute;
+    top: 3em;
+    right: 0;
+    border-left: 0.5em solid #9B8651;
+    border-bottom: 0.5em solid blue;
+}
+span {
+    display: block;
+    text-align: center;
+}
+
+
+.jianli{
+    display: flex;
+    height: 640px;
+    
+}
+.left{
+    border:red 1px solid;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: aquamarine;
+}
+.left .head{
+    flex: 2;
+    background-color: #0071C1; 
+    background-color:blue;
+    height: 100px;
+}
+.left .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 6;
+    background-color:blue;
+}
+.container .ima{
+    height: 400px;
+    width: 260px;
+}
+.container span{
+    margin-top: 30px;
+    font-size: 60px;
+    color: blue;
+}
+.left .bottom{
+    flex: 2;
+    background-color:blue;
+    height: 100px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    flex: 50;
+}
+.right .first{
+    display: flex;
+    flex: 4; 
+    font-size:  25px;
+    color:blue;
+    margin-left: 50px;
+    border-bottom: solid 1px blue;
+    align-items: flex-end;
+
+}
+.first span{
+    margin-bottom: 10px;
+}
+.right .second{
+    margin-left: 50px;
+    font-size:  18px;
+    color: blue;
+    display: flex;
+    flex: 0.8;
+    flex-direction: column;
+}
+.second .edu{
+    display: flex;
+    margin:10px 0;
+}
+.edu span{
+    flex: 1;
+}
+.edu span:nth-child(2){
+    margin-left: 330px;
+}
+.right .third{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+.third span{
+    flex: 1;
+}
+.title{
+    margin-left: 10px;
+    font-size: 18px;
+    color: blue;
+    list-style: none;
+}
+.other{
+    margin-left: 40px;
+    font-size: 15px;
+    color: green;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.four{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ribbon {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    margin: auto;
+}
